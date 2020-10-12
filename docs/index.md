@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/Subhashree2916/htmlcssjavascript/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Module2 Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <h1>Our Menu</h1>
 
-### Markdown
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h2 id="chicken">Chicken</h2>
+            <ul>
+                <li>Balsamic Roasted Brussels Sprouts, Butternut Squash and Chicken Thighs</li>
+                <li>Prosciutto-Wrapped Chicken with Garlic and Herb Cheese</li>
+                <li>Siri Pinter’s One-Pot Chicken Alfredo</li>
+                <li>Florentine Penne with Chicken</li>
+                <li>Garlic-Bread Chicken Nuggets with Balsamic Ketchup</li>
+            </ul>
+        </section>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <section>
+            <h2 id="pork">Pork</h2>
+            <ul>
+                <li>Pork Cheek and Black-Eyed Pea Chili</li>
+                <li>Braised Pork with Cherry Gravy</li>
+                <li>Aleppo-Pepper-Pork-and-Fennel Sandwiches</li>
+                <li>Herb-Roasted Pork Subs with Garlicky Spinach</li>
+                <li>Chinese-Style Ribs with Guava Barbecue Sauce</li>
+                <li>Pork Medallions with Onion Marmalade</li>
+            </ul>
+        </section>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <div class="col-lg-4 col-md-12 col-sm-12">
+        <section>
+            <h2 id="steak">Steak</h2>
+            <ul>
+                <li>Butter-Basted Rib Eye Steaks</li>
+                <li>Balsamic Marinated Flank Steak</li>
+                <li>Grilled Hanger Steak with Kimchi-Apple Slaw</li>
+                <li>Throwback Porterhouse Steaks</li>
+                <li>Minute Steak Stacks with Herbed Anchovy Butter</li>
+                <li>Grilled Skirt Steak with Salsa Verde</li>
+            </ul>
+        </section>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <p>Github repository for this assignment can be found
+            <a href="https://github.com/GuanqiaoDing/Coursera-web-development/tree/master/module2_solution" target="_blank">here</a>.
+        </p>
+    </div>
+</body>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Subhashree2916/htmlcssjavascript/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
